@@ -2,8 +2,16 @@
 
 
 # What is it?
-This is a simple Python script that scrapes the internal web pages of HP Printers for data such as page count, toner level, and maintenance kit level. After the script pulls all the data, it exports it to an .xlsx file.
-This script has parameters customized for my own environment, but things like the printer names and the quanity of printers can be changed.
+This is a simple Python script that scrapes the internal web pages of HP Printers for data such as page count, toner level, and maintenance kit level. After the script pulls all the data, it exports it to an .xlsx file in the running directory. 
+If the .xlsx file already exists, it will append the data. If not, it will create a new file.
+
+**This script has parameters customized for my own environment, but things like the printer names and the quanity of printers can be changed.**
+
+
+Example Output:
+
+![Screenshot 2023-10-23 114533](https://github.com/Brand07/HP-Printer-Metrics-Scrape/assets/81128304/580b4bf4-c41e-464d-a54d-453c353698ac)
+
 
 # Can it scrape any other data from the printer?
 Sure. You would need to find the specific HMTL tag of the information you want to scrape and pass it off into the script.
