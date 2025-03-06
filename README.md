@@ -29,7 +29,7 @@ This project is designed to scrape data from HP printers and store the informati
 
 1. Run the script to scrape printer data:
     ```sh
-    uv run python HP_Printer_Scrape.py
+    uv run python main.py
     ```
 
 2. The script will generate or update the `Printer_Metrics.xlsx` file with the latest data.
